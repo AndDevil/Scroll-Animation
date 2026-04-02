@@ -15,7 +15,7 @@ export default function ItzFizzScrollPage() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Split text helper to maintain clean DOM structure
-  const headlineText = "WELCOME ITZFIZZ";
+  const headlineText = "FUTURE FORWARD";
   const renderLetters = () => {
     return headlineText.split('').map((char, index) => (
       <span key={index} className="inline-block min-w-[0.5em]">
